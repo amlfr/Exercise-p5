@@ -1,27 +1,57 @@
 <!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <title>Exercice CSS Complexe</title>
     <link href="./style.css" rel="stylesheet" type="text/css" />
-</head>
+    <style>
+      header {
+        background-color: #ffcc99;
+        font-weight: bold;
+        text-align: center;
+        box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+      }
 
-<body>
-<header>
-    <h1>Mon Site Web</h1>
-</header>
-<main>
-    <aside>
+      main {
+        background-color: #e6f2ff;
+        display: flex;
+      }
+
+      aside {
+        background-color: #b3d9ff;
+        flex: 1 1 0%;
+        border: solid #ccc;
+        border-width: 1px;
+      }
+
+      section {
+        flex: 3 1 0%;
+        margin: 20px;
+      }
+
+      footer {
+        background-color: #99cc99;
+        border: solid #ccc;
+        border-width: 1px;
+        box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1>Mon Site Web</h1>
+    </header>
+    <main>
+      <aside>
         <p>Barre latérale</p>
-    </aside>
-    <section>
+      </aside>
+      <section>
         <h2>Contenu Principal</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit....</p>
-    </section>
-</main>
-<footer>
-    <p>Pied de page</p>
-</footer>
-</body>
-
+      </section>
+    </main>
+    <footer>
+      <p>Pied de page</p>
+    </footer>
+  </body>
 </html>

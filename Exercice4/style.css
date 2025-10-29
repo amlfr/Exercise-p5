@@ -1,0 +1,30 @@
+header {
+  background-color: #ffcc99;
+  font-weight: bold;
+  text-align: center;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
+main {
+  background-color: #e6f2ff;
+  display: flex;
+}
+
+aside {
+  background-color: #b3d9ff;
+  flex: 1 1 0%;
+  border: solid #ccc;
+  border-width: 1px;
+}
+
+section {
+  flex: 3 1 0%;
+  margin: 20px;
+}
+
+footer {
+  background-color: #99cc99;
+  border: solid #ccc;
+  border-width: 1px;
+  box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
